@@ -1,0 +1,130 @@
+body {
+    text-align: center;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+}
+
+#home {
+    color: #FFFFFF;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    text-decoration: none;
+    float: right;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+#contact_1 a {
+    text-shadow: none;
+}
+
+.campus_mainDiv {
+    border: 1px solid #C7C7C7;
+    padding: 5px;
+    float: left;
+    width: 50%;
+}
+
+
+.campus_mainDiv hr {
+    width: 230px;
+}
+
+.campus_mainDiv h5,
+.campus_mainDiv p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.campus_mainDiv img {
+    width: 100%;
+    height: 400px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.achievement_img{
+    padding-bottom: 10px;
+}
+
+.achievement_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.achievement_head i{
+    float: right;
+}
+
+.movie_text p{
+ color: orange;
+    text-align: left;
+}
+
+.whatsNew_li img{
+    border-radius: 25px;
+}
+
+.whatsNew_li p{
+    margin-top: 10px;
+}
+
+.whatsNew_li{
+    margin-top: 15px;
+}
+
+.alumini {
+    cursor: pointer;
+}
+
+.alumini hr {
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    margin-top: 100px;
+}
+
+.img_modal {
+    display: inline-block;
+}
+
+.p_modal {
+    margin-top: 10px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+#set{
+    height: 300px;
+    width: 600px;
+}
+
+#footer{
+    height: 20px;
+    background-color: white;
+}
